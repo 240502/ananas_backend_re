@@ -8,9 +8,9 @@ namespace Model
 {
     public class size_optionModel
     {
-        public int id { get; set; }
-        public string size_name {get;set;}
-        public string size_category_id { get; set;}
+        public int? id { get; set; }
+        public string? size_name {get;set;}
+        public string? size_category_id { get; set;}
 
     }
 }

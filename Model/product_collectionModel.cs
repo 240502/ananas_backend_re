@@ -8,8 +8,8 @@ namespace Model
 {
     public class product_collectionModel
     {
-        public int id { get; set; }
-        public string collection_name { get; set; }
+        public int? id { get; set; }
+        public string? collection_name { get; set; }
 
     }
 }

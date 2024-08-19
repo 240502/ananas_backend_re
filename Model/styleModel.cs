@@ -8,7 +8,7 @@ namespace Model
 {
     public class styleModel
     {
-        public int id { get; set; }
-        public string style_name { get; set; }
+        public int? id { get; set; }
+        public string? style_name { get; set; }
     }
 }

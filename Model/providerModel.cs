@@ -8,10 +8,10 @@ namespace Model
 {
     public class providerModel
     {
-        public int id { get; set; } 
-        public string prv_name { get; set; }
-        public string email { get; set; }
-        public string phone_number { get; set; }    
-        public string address {  get; set; }
+        public int? id { get; set; } 
+        public string? prv_name { get; set; }
+        public string? email { get; set; }
+        public string? phone_number { get; set; }    
+        public string? address {  get; set; }
     }
 }

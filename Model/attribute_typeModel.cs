@@ -8,7 +8,7 @@ namespace Model
 {
     public class attribute_typeModel
     {
-        public int id { get; set; } 
-        public string attribute_name { get; set; }
+        public int? id { get; set; } 
+        public string? attribute_name { get; set; }
     }
 }

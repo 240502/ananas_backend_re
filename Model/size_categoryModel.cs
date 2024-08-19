@@ -8,8 +8,8 @@ namespace Model
 {
     public class size_categoryModel
     {
-        public int id {  get; set; }
-        public string category_name { get; set; }
+        public int? id {  get; set; }
+        public string? category_name { get; set; }
        
     }
 }

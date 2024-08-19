@@ -9,11 +9,11 @@ namespace Model
 {
     public  class import_bill_detailModel
     {
-        public int id { get; set; }
-        public int import_bill_id { get; set; }    
-        public int product_item_id { get; set; }
-        public int qty { get; set; }
-        public int price { get; set; }
-        public string product_attr { get; set; }
+        public int? id { get; set; }
+        public int? import_bill_id { get; set; }    
+        public int? product_item_id { get; set; }
+        public int? qty { get; set; }
+        public int? price { get; set; }
+        public string? product_attr { get; set; }
     }
 }

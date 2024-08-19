@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{8192E78D-5E19-470D-A097-B2CEDCBF4BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ananas_ecommerce", "ananas_ecommerce\ananas_ecommerce.csproj", "{92EEF13E-D74E-4209-B756-E9BDD8E371ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ananas_ecommerce", "ananas_ecommerce\ananas_ecommerce.csproj", "{92EEF13E-D74E-4209-B756-E9BDD8E371ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{595625DD-2E50-49A8-8971-8D334E830740}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{92EEF13E-D74E-4209-B756-E9BDD8E371ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92EEF13E-D74E-4209-B756-E9BDD8E371ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92EEF13E-D74E-4209-B756-E9BDD8E371ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595625DD-2E50-49A8-8971-8D334E830740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595625DD-2E50-49A8-8971-8D334E830740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595625DD-2E50-49A8-8971-8D334E830740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595625DD-2E50-49A8-8971-8D334E830740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

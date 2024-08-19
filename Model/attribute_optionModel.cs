@@ -9,8 +9,8 @@ namespace Model
     public class attribute_optionModel
     {
 
-        public int id { get; set; }
-        public string attribute_option_name { get; set; }
-        public int attribute_type_id { get; set; }
+        public int? id { get; set; }
+        public string? attribute_option_name { get; set; }
+        public int? attribute_type_id { get; set; }
     }
 }

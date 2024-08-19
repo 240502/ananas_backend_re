@@ -8,7 +8,7 @@ namespace Model
 {
     public class product_statusModel
     {
-        public int id { get; set; }
-        public string status_name {  get; set; }
+        public int? id { get; set; }
+        public string? status_name {  get; set; }
     }
 }

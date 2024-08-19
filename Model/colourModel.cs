@@ -8,9 +8,9 @@ namespace Model
 {
     internal class colourModel
     {
-        public int id { get; set; }
-        public string colour_name { get; set; }
-        public string colour_code { get; set; }
+        public int? id { get; set; }
+        public string? colour_name { get; set; }
+        public string? colour_code { get; set; }
 
     }
 }
